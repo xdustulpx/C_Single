@@ -1,0 +1,44 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c,max;
+    if (a>b)
+    {
+        if(a>c)
+        {
+            max=a;
+            printf("%d",max);
+        }
+        if(a<c)
+        {
+            max=c;
+            printf("%d",max);
+        }
+    }
+    if(a<b)
+    {
+        if(a>c)
+        {
+            max=a;
+            printf("%d",max);
+        }
+        if(a<c)
+        {
+            max=c;
+            printf("%d",max);
+        }
+    }
+    if(a>b)
+    {
+        if(a>c)
+        {
+            max=a;
+            printf("%d",max);
+        }
+        if(a<c)
+        {
+            max=c;
+            printf("%d",max);
+        }
+    }
+}
